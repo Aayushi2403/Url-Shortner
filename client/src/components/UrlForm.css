@@ -1,0 +1,35 @@
+/* UrlForm.css */
+.url-form {
+  display: flex;
+  gap: 10px;
+  margin: 2rem auto;
+  max-width: 700px;
+}
+
+.url-form input {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+}
+
+.url-form input:focus {
+  border-color: #1a1a2e;
+}
+
+.url-form button {
+  padding: 0.75rem 1.5rem;
+  background: #1a1a2e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.url-form button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

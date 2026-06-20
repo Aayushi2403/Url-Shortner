@@ -1,0 +1,65 @@
+/* UrlCard.css */
+.url-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+  margin-bottom: 12px;
+  gap: 1rem;
+}
+
+.url-original {
+  font-size: 0.85rem;
+  color: #888;
+  margin: 0 0 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 400px;
+}
+
+.url-short {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.url-short:hover {
+  text-decoration: underline;
+}
+
+.url-card-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.url-clicks {
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.btn-copy {
+  padding: 6px 14px;
+  background: #1a1a2e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.btn-delete {
+  padding: 6px 14px;
+  background: #e53935;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+}

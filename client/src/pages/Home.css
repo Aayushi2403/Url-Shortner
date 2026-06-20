@@ -1,0 +1,22 @@
+/* Home.css */
+.home {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.home-hero {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.home-hero h1 {
+  font-size: 2rem;
+  color: #1a1a2e;
+  margin-bottom: 0.5rem;
+}
+
+.home-hero p {
+  color: #666;
+  font-size: 1rem;
+}
